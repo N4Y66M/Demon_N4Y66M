@@ -25,7 +25,7 @@ except(ImportError):
 N4Y66M=platform.architecture()[0]
 try:
     if N4Y66M=="32bit":
-        __import__("N4Y66M32").mysecurity()
+        
     elif N4Y66M=="64bit":
         __import__("N4Y66M").mysecurity()
     else:
